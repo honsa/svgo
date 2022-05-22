@@ -10,24 +10,19 @@
     "resolveJsonModule": true
   },
   "include": [
+    "lib/**/*.js",
     "plugins/**/*",
-    "lib/svg-parser.js",
-    "lib/xast.test.js",
-    "lib/path.test.js",
-    "lib/style.test.js",
     "test/cli/**/*"
   ],
   "exclude": [
-    "plugins/_applyTransforms.js",
+    "lib/svgo-node.js",
+    "lib/svgo-node.test.js",
+    "lib/svgo.js",
+    "lib/svgo.test.js",
+    "lib/svgo/**/*.js",
+    "lib/css-tools.js",
     "plugins/convertPathData.js",
-    "plugins/convertStyleToAttrs.js",
-    "plugins/moveGroupAttrsToElems.js",
     "plugins/plugins.js",
-    "plugins/removeDimensions.js",
-    "plugins/removeEmptyAttrs.js",
-    "plugins/removeNonInheritableGroupAttrs.js",
-    "plugins/removeXMLNS.js",
-    "plugins/inlineStyles.js",
     "plugins/preset-default.js"
   ]
 }
